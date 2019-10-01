@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4D443130F64AD52C3D8069B /* Pods_Viper_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFE8BC2E4659ED86BCA91CB /* Pods_Viper_Project.framework */; };
 		ED1381BB2343600400957394 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1381BA2343600400957394 /* AppDelegate.swift */; };
 		ED1381BD2343600400957394 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1381BC2343600400957394 /* ViewController.swift */; };
 		ED1381C02343600400957394 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1381BE2343600400957394 /* Main.storyboard */; };
 		ED1381C2234365ED00957394 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED1381C1234365ED00957394 /* Assets.xcassets */; };
 		ED1381C5234365ED00957394 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1381C3234365ED00957394 /* LaunchScreen.storyboard */; };
+		ED1381D4234366DB00957394 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1381CE234366DB00957394 /* FirstViewController.swift */; };
+		ED1381D5234366DB00957394 /* IbetyPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1381CF234366DB00957394 /* IbetyPresenter.swift */; };
+		ED1381D6234366DB00957394 /* InteractorClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1381D0234366DB00957394 /* InteractorClass.swift */; };
+		ED1381D7234366DB00957394 /* IbetyRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1381D1234366DB00957394 /* IbetyRouter.swift */; };
+		ED1381D8234366DB00957394 /* protocolClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1381D3234366DB00957394 /* protocolClass.swift */; };
+		ED1381E92343671D00957394 /* IbetyPresenter+LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1381DB2343671B00957394 /* IbetyPresenter+LoginPage.swift */; };
+		ED1381EA2343671D00957394 /* Login1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1381DC2343671B00957394 /* Login1ViewController.swift */; };
+		ED1381EB2343671D00957394 /* IbetyInterector+LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1381DD2343671B00957394 /* IbetyInterector+LoginPage.swift */; };
+		ED1381EC2343671D00957394 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1381DE2343671B00957394 /* LoginRouter.swift */; };
+		ED1381ED2343671D00957394 /* LoginPageProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1381E02343671B00957394 /* LoginPageProtocols.swift */; };
+		ED1381EE2343671D00957394 /* AccountCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1381E32343671B00957394 /* AccountCreationViewController.swift */; };
+		ED1381EF2343671D00957394 /* IbetyRouter+AccountCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1381E42343671B00957394 /* IbetyRouter+AccountCreate.swift */; };
+		ED1381F02343671D00957394 /* IbetyPresenter+AccountCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1381E52343671B00957394 /* IbetyPresenter+AccountCreate.swift */; };
+		ED1381F12343671D00957394 /* IbetyInteractor+AccountCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1381E62343671B00957394 /* IbetyInteractor+AccountCreate.swift */; };
+		ED1381F22343671D00957394 /* AccountCreateProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1381E82343671B00957394 /* AccountCreateProtocols.swift */; };
+		ED1381F423436EAC00957394 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = ED1381F323436EAC00957394 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		53EDF708CCC35DA4858E5CC3 /* Pods-Viper Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viper Project.release.xcconfig"; path = "Target Support Files/Pods-Viper Project/Pods-Viper Project.release.xcconfig"; sourceTree = "<group>"; };
+		94740D1B955B90BB302E43E4 /* Pods-Viper Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viper Project.debug.xcconfig"; path = "Target Support Files/Pods-Viper Project/Pods-Viper Project.debug.xcconfig"; sourceTree = "<group>"; };
+		CEFE8BC2E4659ED86BCA91CB /* Pods_Viper_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viper_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED1381B72343600300957394 /* Viper Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Viper Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED1381BA2343600400957394 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED1381BC2343600400957394 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +42,22 @@
 		ED1381C1234365ED00957394 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED1381C4234365ED00957394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED1381C6234365ED00957394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED1381CE234366DB00957394 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		ED1381CF234366DB00957394 /* IbetyPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IbetyPresenter.swift; sourceTree = "<group>"; };
+		ED1381D0234366DB00957394 /* InteractorClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractorClass.swift; sourceTree = "<group>"; };
+		ED1381D1234366DB00957394 /* IbetyRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IbetyRouter.swift; sourceTree = "<group>"; };
+		ED1381D3234366DB00957394 /* protocolClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = protocolClass.swift; sourceTree = "<group>"; };
+		ED1381DB2343671B00957394 /* IbetyPresenter+LoginPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IbetyPresenter+LoginPage.swift"; sourceTree = "<group>"; };
+		ED1381DC2343671B00957394 /* Login1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login1ViewController.swift; sourceTree = "<group>"; };
+		ED1381DD2343671B00957394 /* IbetyInterector+LoginPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IbetyInterector+LoginPage.swift"; sourceTree = "<group>"; };
+		ED1381DE2343671B00957394 /* LoginRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		ED1381E02343671B00957394 /* LoginPageProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPageProtocols.swift; sourceTree = "<group>"; };
+		ED1381E32343671B00957394 /* AccountCreationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountCreationViewController.swift; sourceTree = "<group>"; };
+		ED1381E42343671B00957394 /* IbetyRouter+AccountCreate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IbetyRouter+AccountCreate.swift"; sourceTree = "<group>"; };
+		ED1381E52343671B00957394 /* IbetyPresenter+AccountCreate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IbetyPresenter+AccountCreate.swift"; sourceTree = "<group>"; };
+		ED1381E62343671B00957394 /* IbetyInteractor+AccountCreate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IbetyInteractor+AccountCreate.swift"; sourceTree = "<group>"; };
+		ED1381E82343671B00957394 /* AccountCreateProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountCreateProtocols.swift; sourceTree = "<group>"; };
+		ED1381F323436EAC00957394 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +65,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4D443130F64AD52C3D8069B /* Pods_Viper_Project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C422305A8E816E342C735B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEFE8BC2E4659ED86BCA91CB /* Pods_Viper_Project.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ED1381AE2343600100957394 = {
 			isa = PBXGroup;
 			children = (
+				ED1381F323436EAC00957394 /* Podfile */,
 				ED1381B92343600300957394 /* Viper Project */,
 				ED1381B82343600300957394 /* Products */,
+				F1EC110DC45E109EF23A5E3E /* Pods */,
+				5C422305A8E816E342C735B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +104,109 @@
 			children = (
 				ED1381BA2343600400957394 /* AppDelegate.swift */,
 				ED1381BC2343600400957394 /* ViewController.swift */,
+				ED1381E12343671B00957394 /* AccountCreationPage */,
+				ED1381D92343671B00957394 /* LoginPage */,
+				ED1381CC234366DB00957394 /* FirstView */,
 				ED1381BE2343600400957394 /* Main.storyboard */,
 				ED1381C1234365ED00957394 /* Assets.xcassets */,
 				ED1381C3234365ED00957394 /* LaunchScreen.storyboard */,
 				ED1381C6234365ED00957394 /* Info.plist */,
 			);
 			path = "Viper Project";
+			sourceTree = "<group>";
+		};
+		ED1381CC234366DB00957394 /* FirstView */ = {
+			isa = PBXGroup;
+			children = (
+				ED1381CD234366DB00957394 /* Implementations */,
+				ED1381D2234366DB00957394 /* Interfaces */,
+			);
+			path = FirstView;
+			sourceTree = "<group>";
+		};
+		ED1381CD234366DB00957394 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				ED1381CE234366DB00957394 /* FirstViewController.swift */,
+				ED1381CF234366DB00957394 /* IbetyPresenter.swift */,
+				ED1381D0234366DB00957394 /* InteractorClass.swift */,
+				ED1381D1234366DB00957394 /* IbetyRouter.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		ED1381D2234366DB00957394 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				ED1381D3234366DB00957394 /* protocolClass.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		ED1381D92343671B00957394 /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				ED1381DA2343671B00957394 /* Implementations */,
+				ED1381DF2343671B00957394 /* Interfaces */,
+			);
+			path = LoginPage;
+			sourceTree = "<group>";
+		};
+		ED1381DA2343671B00957394 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				ED1381DB2343671B00957394 /* IbetyPresenter+LoginPage.swift */,
+				ED1381DC2343671B00957394 /* Login1ViewController.swift */,
+				ED1381DD2343671B00957394 /* IbetyInterector+LoginPage.swift */,
+				ED1381DE2343671B00957394 /* LoginRouter.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		ED1381DF2343671B00957394 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				ED1381E02343671B00957394 /* LoginPageProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		ED1381E12343671B00957394 /* AccountCreationPage */ = {
+			isa = PBXGroup;
+			children = (
+				ED1381E22343671B00957394 /* Implementations */,
+				ED1381E72343671B00957394 /* Interfaces */,
+			);
+			path = AccountCreationPage;
+			sourceTree = "<group>";
+		};
+		ED1381E22343671B00957394 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				ED1381E32343671B00957394 /* AccountCreationViewController.swift */,
+				ED1381E42343671B00957394 /* IbetyRouter+AccountCreate.swift */,
+				ED1381E52343671B00957394 /* IbetyPresenter+AccountCreate.swift */,
+				ED1381E62343671B00957394 /* IbetyInteractor+AccountCreate.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		ED1381E72343671B00957394 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				ED1381E82343671B00957394 /* AccountCreateProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		F1EC110DC45E109EF23A5E3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94740D1B955B90BB302E43E4 /* Pods-Viper Project.debug.xcconfig */,
+				53EDF708CCC35DA4858E5CC3 /* Pods-Viper Project.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED1381C9234365ED00957394 /* Build configuration list for PBXNativeTarget "Viper Project" */;
 			buildPhases = (
+				88770861DD27162E8863FAAF /* [CP] Check Pods Manifest.lock */,
 				ED1381B32343600300957394 /* Sources */,
 				ED1381B42343600300957394 /* Frameworks */,
 				ED1381B52343600300957394 /* Resources */,
+				C5E1971561D517C71B5CEBF6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,19 +271,77 @@
 			files = (
 				ED1381C5234365ED00957394 /* LaunchScreen.storyboard in Resources */,
 				ED1381C2234365ED00957394 /* Assets.xcassets in Resources */,
+				ED1381F423436EAC00957394 /* Podfile in Resources */,
 				ED1381C02343600400957394 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		88770861DD27162E8863FAAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Viper Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5E1971561D517C71B5CEBF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Viper Project/Pods-Viper Project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Viper Project/Pods-Viper Project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Viper Project/Pods-Viper Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ED1381B32343600300957394 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED1381D7234366DB00957394 /* IbetyRouter.swift in Sources */,
+				ED1381D5234366DB00957394 /* IbetyPresenter.swift in Sources */,
+				ED1381F12343671D00957394 /* IbetyInteractor+AccountCreate.swift in Sources */,
+				ED1381D4234366DB00957394 /* FirstViewController.swift in Sources */,
+				ED1381EB2343671D00957394 /* IbetyInterector+LoginPage.swift in Sources */,
+				ED1381EF2343671D00957394 /* IbetyRouter+AccountCreate.swift in Sources */,
+				ED1381EA2343671D00957394 /* Login1ViewController.swift in Sources */,
+				ED1381EE2343671D00957394 /* AccountCreationViewController.swift in Sources */,
+				ED1381F02343671D00957394 /* IbetyPresenter+AccountCreate.swift in Sources */,
+				ED1381D6234366DB00957394 /* InteractorClass.swift in Sources */,
 				ED1381BD2343600400957394 /* ViewController.swift in Sources */,
+				ED1381F22343671D00957394 /* AccountCreateProtocols.swift in Sources */,
+				ED1381D8234366DB00957394 /* protocolClass.swift in Sources */,
+				ED1381EC2343671D00957394 /* LoginRouter.swift in Sources */,
 				ED1381BB2343600400957394 /* AppDelegate.swift in Sources */,
+				ED1381ED2343671D00957394 /* LoginPageProtocols.swift in Sources */,
+				ED1381E92343671D00957394 /* IbetyPresenter+LoginPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +485,7 @@
 		};
 		ED1381CA234365ED00957394 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94740D1B955B90BB302E43E4 /* Pods-Viper Project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +504,7 @@
 		};
 		ED1381CB234365ED00957394 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53EDF708CCC35DA4858E5CC3 /* Pods-Viper Project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,39 @@
+PODS:
+  - Alamofire (4.9.0)
+  - AlamofireImage (3.5.2):
+    - Alamofire (~> 4.8)
+  - DropDown (2.3.13)
+  - FlagPhoneNumber (0.7.6):
+    - FlagPhoneNumber/libPhoneNumberiOS (= 0.7.6)
+  - FlagPhoneNumber/libPhoneNumberiOS (0.7.6)
+  - IQKeyboardManager (6.4.2)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - AlamofireImage
+  - DropDown
+  - FlagPhoneNumber
+  - IQKeyboardManager
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - DropDown
+    - FlagPhoneNumber
+    - IQKeyboardManager
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  FlagPhoneNumber: ee8d015e7e92b776a3598e6a36718196e0d0dcf5
+  IQKeyboardManager: b41e0a4943fbac4c11a239d31a688667675f962e
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 2039b3c8679d4baa1959ab5b94b785a1fdb2f6e6
+
+COCOAPODS: 1.7.5
